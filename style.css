@@ -92,12 +92,45 @@ p {
   margin-top: 0px;
 }
 
+.footer-copyright {
+  font-family: 'Rosario', sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-align: right;
+}
+
 td {
   padding: 10px;
 }
 
 p:last-child {
   margin-bottom: 0px;
+}
+
+#sidebar {
+  position: fixed;
+  width: 80px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #00AD7C
+}
+
+#sidebar i {
+  margin: 20px 0px;
+  color: white;
+  font-size: 30px;
+  transition: transform 300ms ease;
+}
+
+
+#sidebar i:hover {
+  font-size: 50px;
+  transition: transform 300ms ease;
+}
+
+#page-content {
+  margin-left: 70px;
 }
 
 @media (max-width: 960px) {
@@ -119,13 +152,3 @@ p:last-child {
   }
 }
 
-#sidebar {
-  position: fixed;
-  width: 300px;
-  left: 0;
-  top: 0;
-  bottom: 0;
-}
-#page-content {
-  margin-left: 300px;
-}
